@@ -1,0 +1,36 @@
+﻿@page "/movies"
+@using System.IO
+@using System.Text.Json
+
+
+<h1>Movies</h1>
+
+Movie list is here!
+
+@if (movies == null)
+{
+    <p>
+        Loading...
+    </p>
+}
+else
+{
+    <div class="media-item-list">
+        @foreach (var movie in movies)
+        {
+            <MovieCard @key="movie.Id" Movie="@movie" />
+        }
+    </div>
+}
+
+@code {
+    private IEnumerable<MovieModel> movies;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var service = Services.ServiceLocator.Current.GetService<Services.DataService>();
+        await service.PopulateTestData();
+
+        movies = service.GetByTitle<MovieModel>("the");
+    }
+}

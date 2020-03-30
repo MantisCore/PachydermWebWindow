@@ -1,0 +1,19 @@
+﻿<div class="media-item-listitem">
+    <div class="media-item-container">
+        <div class="media-item-image-container movie-cover">
+            <div class="hover-mask"></div>
+            <img class="media-item-image" src="@Movie.ImageUrl" />
+        </div>
+        <div class="media-item-info">
+            <div class="media-item-title-container">
+                <span class="media-item-title scroll-on-hover ellipsis">@Movie.Title</span>
+            </div>
+            <span class="media-item-author scroll-on-hover ellipsis">@Movie.Author</span>
+            <span class="media-item-date">@Movie.Date.ToShortDateString()</span>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter] public MovieModel Movie { get; set; }
+}

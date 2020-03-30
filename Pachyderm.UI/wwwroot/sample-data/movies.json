@@ -1,0 +1,66 @@
+[
+  {
+    "id":  "movie-1",
+    "title": "White God",
+    "author": "Kornél Mundruczó",
+    "date": "2015-05-22",
+    "imageUrl": "../sample-images/movies/1.jpg",
+    "coverType": "movie-cover"
+  },
+  {
+    "id": "movie-2",
+    "title": "Chappie",
+    "author": "Neill Blomkamp",
+    "date": "2015-01-18",
+    "imageUrl": "../sample-images/movies/2.jpg",
+    "coverType": "movie-cover"
+  },
+  {
+    "id": "movie-3",
+    "title": "Insurgent",
+    "author": "Robert Schwentke",
+    "date": "2015-07-20",
+    "imageUrl": "../sample-images/movies/3.jpg",
+    "coverType": "movie-cover"
+  },
+  {
+    "id": "movie-4",
+    "title": "Kumiko, the Treasure Hunter",
+    "author": "David Zellner",
+    "date": "2015-02-20",
+    "imageUrl": "../sample-images/movies/4.jpg",
+    "coverType": "movie-cover"
+  },
+  {
+    "id": "movie-5",
+    "title": "Do You Believe?",
+    "author": "Jonathan M. Gunn",
+    "date": "2015-03-20",
+    "imageUrl": "../sample-images/movies/5.jpg",
+    "coverType": "movie-cover"
+  },
+  {
+    "id": "movie-6",
+    "title": "The Salt of the Earth",
+    "author": "Juliano Ribeiro Salgado, Wim Wenders",
+    "date": "2015-03-27",
+    "imageUrl": "../sample-images/movies/6.jpg",
+    "coverType": "movie-cover"
+  },
+  {
+    "id": "movie-7",
+    "title": "It Follows",
+    "author": "David Robert Mitchell",
+    "date": "2015-06-13",
+    "imageUrl": "../sample-images/movies/7.jpg",
+    "coverType": "movie-cover"
+  },
+  {
+    "id": "movie-8",
+    "title": "Seymour: An Introduction",
+    "author": "Ethan Hawke",
+    "date": "2015-09-10",
+    "imageUrl": "../sample-images/movies/8.jpg",
+    "coverType": "movie-cover"
+  }
+]
