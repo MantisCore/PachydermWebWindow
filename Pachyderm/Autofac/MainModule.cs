@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Pachyderm.UI.Autofac
+namespace Pachyderm.Autofac
 {
     public class MainModule : Module
     {

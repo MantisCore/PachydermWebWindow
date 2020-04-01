@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Text;
 
-namespace Pachyderm.UI.Services
+namespace Pachyderm.Services
 {
     public class ConfigurationService
     {

@@ -1,7 +1,7 @@
 ﻿using WebWindows.Blazor;
 using System;
 
-namespace Pachyderm.UI
+namespace Pachyderm
 {
     public class Program
     {

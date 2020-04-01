@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Pachyderm.UI.Models
+namespace Pachyderm.Models
 {
     public abstract class Model
     {

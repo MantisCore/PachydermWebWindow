@@ -1,7 +1,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using WebWindows.Blazor;
 
-namespace Pachyderm.UI
+namespace Pachyderm
 {
     public class Startup
     {

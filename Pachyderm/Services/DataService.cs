@@ -1,5 +1,5 @@
 ﻿using LiteDB;
-using Pachyderm.UI.Models;
+using Pachyderm.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -9,7 +9,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Linq;
 
-namespace Pachyderm.UI.Services
+namespace Pachyderm.Services
 {
     public class DataService
     {

@@ -4,7 +4,7 @@ using System.Text;
 using System.Linq;
 using Autofac;
 
-namespace Pachyderm.UI.Services
+namespace Pachyderm.Services
 {
     public sealed class ServiceLocator
     {
