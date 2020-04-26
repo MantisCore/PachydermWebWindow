@@ -2,6 +2,7 @@
 @using System.IO
 @using System.Text.Json
 
+@inject ModalService ModalService
 
 <h1>Tests</h1>
 
@@ -32,3 +33,14 @@ Tests are here!
         </div>
     </div>
 </div>
+
+
+<!-- Modal 2 -->
+<button @onclick="ShowModal">Show Modal Service</button>
+
+@functions {
+    private void ShowModal()
+    {
+        ModalService.Show("Simple Form", typeof(SimpleForm));
+    }
+}

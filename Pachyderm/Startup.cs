@@ -1,4 +1,5 @@
 using Microsoft.Extensions.DependencyInjection;
+using Pachyderm.Services.UI;
 using WebWindows.Blazor;
 
 namespace Pachyderm
@@ -7,6 +8,7 @@ namespace Pachyderm
     {
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<ModalService>();
         }
 
         public void Configure(DesktopApplicationBuilder app)
