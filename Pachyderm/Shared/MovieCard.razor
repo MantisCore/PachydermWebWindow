@@ -1,4 +1,6 @@
-﻿<div class="media-item-listitem" data-toggle="modal" data-target="#movieModal">
+﻿@inject ModalService ModalService
+
+<div class="media-item-listitem" @onclick="ShowModal">
     <div class="media-item-container">
         <div class="media-item-image-container movie-cover">
             <div class="hover-mask"></div>
@@ -16,4 +18,9 @@
 
 @code {
     [Parameter] public MovieModel Movie { get; set; }
+
+    private void ShowModal()
+    {
+        ModalService.Show("Movie Detail", typeof(MovieDetail), new MovieDetailViewModel { Movie = this.Movie });
+    }
 }

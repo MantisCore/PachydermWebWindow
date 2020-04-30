@@ -1,0 +1,11 @@
+﻿<div>
+    <img  class="movie-cover" src="@Model?.Movie.ImageUrl" />
+    <div>
+        <span>@Model?.Movie.Title (@Model?.Movie.Date.Year)</span>
+    </div>
+</div>
+
+
+@code {
+    [Parameter] public MovieDetailViewModel Model { get; set; }
+}
